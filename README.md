@@ -2,8 +2,7 @@
 
 ```
 docker run \
-	--name mysql \
-	-e MYSQL_ROOT_PASSWORD=root \
+    -e MYSQL_ROOT_PASSWORD=root \
 	-e MYSQL_USER=app \
 	-e MYSQL_PASSWORD=app \
 	-e MYSQL_DATABASE=vollmed_api \
